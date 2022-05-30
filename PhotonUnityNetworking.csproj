@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C2B9C888-58FD-31AC-6EA9-B9943E77A482}</ProjectGuid>
+    <ProjectGuid>{89269C5D-8C9F-8EA6-FEC2-A76991E5794A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking</AssemblyName>
@@ -56,23 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonTransformViewClassic.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PunClasses.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonNetwork.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonHandler.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonAnimatorView.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonRigidbodyView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\ServerSettings.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonRigidbody2DView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Enums.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Interfaces\IPunCallbacks.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Utilities\NestedComponentUtilities.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PunClasses.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonStreamQueue.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\ServerSettings.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonNetworkPart.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Enums.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonNetwork.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Utilities\NestedComponentUtilities.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonAnimatorView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Interfaces\IPunCallbacks.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonRigidbody2DView.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Interfaces\IPhotonViewCallbacks.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonTransformViewClassic.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\CustomTypes.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\Views\PhotonTransformView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonUnityNetworking\Code\PhotonUnityNetworking.asmdef" />
@@ -333,9 +333,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -345,14 +342,14 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.PackageManagerResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
@@ -368,9 +365,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -393,11 +387,11 @@
     <Reference Include="Google.MiniJson">
       <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -413,6 +407,12 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -795,7 +795,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{6F904A44-8321-2A60-EAA6-D5EF5E7BCFB0}</Project>
+      <Project>{E08A9006-432F-2592-C675-8DD18C634CD3}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
   </ItemGroup>

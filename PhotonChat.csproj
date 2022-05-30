@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D95A7EE9-CDDA-3304-4F51-ADE352EE021A}</ProjectGuid>
+    <ProjectGuid>{303C8269-EB41-7D81-A077-0307C8A4CA9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonChat</AssemblyName>
@@ -56,19 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatOperationCode.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatAppSettings.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatChannel.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatDisconnectCause.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChatParameterCode.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChannelWellKnownProperties.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChatClient.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\IChatClientListener.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatOperationCode.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatPeer.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatAppSettings.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatDisconnectCause.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChatUserStatus.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatPeer.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\ChatEventCode.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChatState.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Code\ChannelCreationOptions.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatEventCode.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Code\ChatChannel.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Code\IChatClientListener.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonChat\Code\changes-chat.txt" />
@@ -330,9 +330,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -342,14 +339,14 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.PackageManagerResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
@@ -365,9 +362,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -390,11 +384,11 @@
     <Reference Include="Google.MiniJson">
       <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -410,6 +404,12 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

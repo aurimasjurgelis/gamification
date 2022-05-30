@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3041C51A-8B3C-CA47-CD0C-5E1841C3B032}</ProjectGuid>
+    <ProjectGuid>{D1700260-886E-95BE-2DFC-681F4805841C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Demos</AssemblyName>
@@ -56,109 +56,109 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierSpline.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsVisibleProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CloudRegionProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ScoreHelper.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPropertiesListedInLobbyProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Controllers\PlayerDetailsController.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierControlPointMode.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierCurve.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerCountProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\SetRoomCustomPropertyUIForm.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Bullet.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomMasterClientIdProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\OnlineDocButton.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ThirdParty\PunCockpitEmbed.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Bezier.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CrcCheckToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PropertyCell.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\StringInputField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerAddressProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerTtlProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\ThirdPersonUserControl.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomEmptyRoomTtlProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotRacerSplashScreen.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\ProceduralController.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\GameVersionProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\IntInputField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotLanes.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomAutoCleanupProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplineWalker.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Cluster.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListCell.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PingProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateOnSerializeField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\NickNameField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Asteroid.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\WebRpcImplementationExample.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfRoomsProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\AutoSyncSceneToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyMainPanel.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomExpectedUsersProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyTopPanel.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Noise.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Block.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListCell.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\UserIdUiForm.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersOnMasterProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\GameVersionField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\PlayerOverviewPanel.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOpenProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\PlayerListEntry.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Scripts\DemoHubManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListCell.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\BestRegionInPrefsProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsOpenToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PropertyListenerBase.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsVisibleToggle.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\DocLinks.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\OfflineModeProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOfflineProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\BoolInputField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\BackgroundTimeOutField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\DocLinkButton.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\LoadLevelUIForm.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Line.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Spaceship.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\PropertyFields\UserIdField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersInRoomProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\IngameControlPanel.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\PlayerControl.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\AsteroidsGame.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\InfosPanelPlaceholder.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\PunCockpit.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplinePosition.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomNameProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedAndReadyProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\ThirdPersonCharacter.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\ConnectToRegionUIForm.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerProperty.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Scripts\ToDemoHubButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PingProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\AsteroidsGame.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierCurve.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\PropertyFields\UserIdField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\DocLinks.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CloudRegionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\ToggleExpand.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersInRoomProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoHub\Scripts\DemoHubManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\GameVersionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PlayerListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\ThirdPersonCharacter.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfRoomsProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RegionListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Block.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\PropertyCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\InfosPanelPlaceholder.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\IngameControlPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\LoadLevelUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\IntInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\ConnectToRegionUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListCell.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\OfflineModeProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsVisibleToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\StringInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPropertiesListedInLobbyProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ThirdParty\PunCockpitEmbed.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomMaxPlayersProperty.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\CreateRoomUiForm.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\AsteroidsGameManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplinePosition.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RegionListView.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\WorldGenerator.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Line.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\BackgroundTimeOutField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerCountProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersOnMasterProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierSpline.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\GameVersionField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\AutoSyncSceneToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerAddressProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomAutoCleanupProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\PlayerOverviewPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotLanes.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Scripts\ThirdPersonUserControl.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomPlayerTtlProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\DocLinkButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateOnSerializeField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOfflineProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Bullet.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\AppVersionProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomNameProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CountOfPlayersProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ScoreHelper.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Spaceship.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyMainPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\PlayerControl.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Controllers\PlayerDetailsController.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\LayoutElementMatchSize.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\BestRegionInPrefsProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Bezier.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\Generic\BoolInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\RoomListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsOpenProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotRacerSplashScreen.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CurrentRoom\CurrentRoomIsOpenToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomEmptyRoomTtlProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\SplineWalker.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Lists\FriendListView.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\ServerProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\LobbyTopPanel.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\IsConnectedAndReadyProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\NickNameField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\CreateRoomUiForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\WorldGenerator.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\RoomListEntry.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomExpectedUsersProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\SendRateField.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Lobby\PlayerListEntry.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomIsVisibleProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\Asteroid.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Cluster.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\CurrentRoomMasterClientIdProperty.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\CrcCheckToggle.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\ReadOnlyProperties\PropertyListenerBase.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\ProceduralController.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\CameraWork.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\PunCockpit.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoAsteroids\Scripts\Game\AsteroidsGameManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\WebRpcImplementationExample.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\UserIdUiForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Scripts\Autonomous UI\OnlineDocButton.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoProcedural\Scripts\Noise.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\SetRoomCustomPropertyUIForm.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\BezierControlPointMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonUnityNetworking\Demos\Shared Assets\Skin\eurof_tt.txt" />
@@ -422,9 +422,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -434,14 +431,14 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.PackageManagerResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
@@ -457,9 +454,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -482,11 +476,11 @@
     <Reference Include="Google.MiniJson">
       <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -502,6 +496,12 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -884,15 +884,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{6F904A44-8321-2A60-EAA6-D5EF5E7BCFB0}</Project>
+      <Project>{E08A9006-432F-2592-C675-8DD18C634CD3}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{C2B9C888-58FD-31AC-6EA9-B9943E77A482}</Project>
+      <Project>{89269C5D-8C9F-8EA6-FEC2-A76991E5794A}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{E9182943-4C83-99E1-B1C0-11BB8C7E1ACB}</Project>
+      <Project>{4DF71188-BCC0-24CF-9CE5-8CCF2BEFA9DE}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
   </ItemGroup>

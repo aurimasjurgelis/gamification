@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8143DA3E-2C67-9663-9DF6-B404F57CDBC0}</ProjectGuid>
+    <ProjectGuid>{26FC1F95-03C3-26B8-E1ED-47BA5352AE6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PunDemos.DemoSlotcarEditor</AssemblyName>
@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Editor\BezierSplineInspector.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Editor\LineInspector.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Editor\BezierCurveInspector.cs" />
+    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Editor\LineInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\BezierCurve\Editor\PunDemos.DemoSlotcarEditor.asmdef" />
@@ -322,9 +322,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
@@ -334,14 +331,14 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
       <HintPath>Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.PackageManagerResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
       <HintPath>Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
@@ -357,9 +354,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
@@ -382,11 +376,11 @@
     <Reference Include="Google.MiniJson">
       <HintPath>Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.171\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -402,6 +396,12 @@
     </Reference>
     <Reference Include="Firebase.Auth">
       <HintPath>Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -1018,16 +1018,16 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{3041C51A-8B3C-CA47-CD0C-5E1841C3B032}</Project>
+      <Project>{D1700260-886E-95BE-2DFC-681F4805841C}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
   </ItemGroup>
